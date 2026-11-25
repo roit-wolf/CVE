@@ -14,7 +14,7 @@ D-Link DCS-935L 1.10.01 的 `setconf.cgi` 中，`loginRouter` 未安全处理 PO
 
 - **官方记录**：[CVE](https://www.cve.org/CVERecord?id=CVE-2026-133680) · [VulDB VDB-441406](https://vuldb.com/vuln/441406)
 - **官方评分**：CVSS 4.0 **9.4 / Critical**；CVSS 3.1 **9.9 / Critical**（由 VulDB CNA 提供）
-- **报告**：[中文 Markdown](CVE-2026-133680/reports/CVE-2026-133680_report.zh-CN.md) · [中文 PDF](CVE-2026-133680/reports/CVE-2026-133680_report.zh-CN.pdf) · [English Markdown](CVE-2026-133680/reports/CVE-2026-133680_report.en.md) · [English PDF](CVE-2026-133680/reports/CVE-2026-133680_report.en.pdf)
+- **报告**：[中文](CVE-2026-133680/reports/CVE-2026-133680_report.zh-CN.md) · [English](CVE-2026-133680/reports/CVE-2026-133680_report.en.md)
 - **披露材料**：[中文](CVE-2026-133680/disclosure/vuldb-submission.zh-CN.md) · [English](CVE-2026-133680/disclosure/vuldb-submission.en.md)
 - **PoC**：[exploit_setconf.py](CVE-2026-133680/poc/exploit_setconf.py)
 - **逆向分析**：[setconf.cgi](CVE-2026-133680/analysis/setconf.cgi) · [IDA 数据库](CVE-2026-133680/analysis/setconf.cgi.i64)
@@ -25,7 +25,7 @@ D-Link DCS-935L 1.10.01 的 `setconf.cgi` 中，`loginRouter` 未安全处理 PO
 
 ```text
 CVE-<年份>-<编号>/
-├── reports/       # 中英文报告、PDF 和报告截图
+├── reports/       # 中英文报告和报告截图
 │   └── assets/
 ├── disclosure/    # CVE / VulDB 等披露提交材料
 ├── poc/           # 概念验证脚本
