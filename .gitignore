@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Extracted firmware and local PoC artifacts
+*.extracted/
+squashfs-root*/
+pwned
